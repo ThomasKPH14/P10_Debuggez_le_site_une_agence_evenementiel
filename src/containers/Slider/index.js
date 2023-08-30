@@ -7,7 +7,8 @@ import "./style.scss";
 const Slider = () => {
   const { data } = useData();
   const [index, setIndex] = useState(0);
-  
+  // Correction Slider
+  // Tri des événements par date en ordre décroissant ,j'ai inversé les valeurs 1 et -1.
   const byDateDesc = data?.focus.sort((evtA, evtB) =>
     new Date(evtA.date) < new Date(evtB.date) ? 1 : -1
   );
