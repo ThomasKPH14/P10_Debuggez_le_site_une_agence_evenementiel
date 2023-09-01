@@ -18,7 +18,7 @@
         {
             "id": 2,
             "type": "expérience digitale",
-            "date": "2022-01-29T20:28:45.744Z",
+            "date": "2022-02-24T20:28:45.744Z",
             "title": "#DigitonPARIS",
             "cover": "/images/charlesdeluvio-wn7dOzUh3Rs-unsplash.png",
             "description": "Présentation des outils analytics aux professionnels du secteur ",
@@ -33,7 +33,7 @@
         {
             "id": 3,
             "type": "conférence",
-            "date": "2022-03-29T20:28:45.744Z",
+            "date": "2022-03-24T20:28:45.744Z",
             "title": "Conférence &co-responsable",
             "cover": "/images/chuttersnap-Q_KdjKxntH8-unsplash.png",
             "description": "Débats et échanges autour des collaborations eco-responsable.",
@@ -48,7 +48,7 @@
         {
             "id": 4,
             "type": "conférence",
-            "date": "2022-08-29T20:28:45.744Z",
+            "date": "2022-02-24T20:28:45.744Z",
             "title": "Conférence #productCON",
             "cover": "/images/headway-F2KRf_QfCqw-unsplash.png",
             "description": "Présentation des outils analytics aux professionnels du secteur ",
@@ -64,7 +64,7 @@
         {
             "id": 5,
             "type": "expérience digitale",
-            "date": "2022-04-29T20:28:45.744Z",
+            "date": "2022-02-24T20:28:45.744Z",
             "title": "Conférence #productCON",
             "cover": "/images/pablo-heimplatz-ZODcBkEohk8-unsplash.png",
             "description": "Présentation des outils analytics aux professionnels du secteur ",
@@ -80,7 +80,7 @@
         {
             "id": 6,
             "type": "conférence",
-            "date": "2022-04-29T20:28:45.744Z",
+            "date": "2022-02-24T20:28:45.744Z",
             "title": "Conférence #productCON",
             "cover": "/images/priscilla-du-preez-Q7wGvnbuwj0-unsplash1.png",
             "description": "Présentation des outils analytics aux professionnels du secteur ",
@@ -96,7 +96,7 @@
         {
             "id": 7,
             "type": "expérience digitale",
-            "date": "2022-04-29T20:28:45.744Z",
+            "date": "2022-02-24T20:28:45.744Z",
             "title": "Conférence #productCON",
             "cover": "/images/product-school-dJICd7b_LlE-unsplash.png",
             "description": "Présentation des outils analytics aux professionnels du secteur ",
@@ -112,7 +112,7 @@
         {
             "id": 8,
             "type": "conférence",
-            "date": "2022-04-29T20:28:45.744Z",
+            "date": "2022-02-24T20:28:45.744Z",
             "title": "Conférence #productCON",
             "cover": "/images/product-school-nOvIa_x_tfo-unsplash.png",
             "description": "Présentation des outils analytics aux professionnels du secteur ",
@@ -128,7 +128,7 @@
         {
             "id": 9,
             "type": "expérience digitale",
-            "date": "2022-04-29T20:28:45.744Z",
+            "date": "2022-02-24T20:28:45.744Z",
             "title": "Conférence #productCON",
             "cover": "/images/stem-list-EVgsAbL51Rk-unsplash.png",
             "description": "Présentation des outils analytics aux professionnels du secteur ",
@@ -144,7 +144,7 @@
         {
             "id": 10,
             "type": "soirée entreprise",
-            "date": "2022-04-29T20:28:45.744Z",
+            "date": "2022-02-24T20:28:45.744Z",
             "title": "User&product MixUsers",
             "cover": "/images/alexandre-pellaes-6vAjp0pscX0-unsplash.png",
             "description": "Présentation des outils analytics aux professionnels du secteur",
@@ -160,7 +160,7 @@
         {
             "id": 11,
             "type": "conférence",
-            "date": "2022-01-29T20:28:45.744Z",
+            "date": "2022-02-24T20:28:45.744Z",
             "title": "Conférence #productCON",
             "cover": "/images/charlesdeluvio-wn7dOzUh3Rs-unsplash.png",
             "description": "Présentation des outils analytics aux professionnels du secteur ",
@@ -176,7 +176,7 @@
         {
             "id": 12,
             "type": "soirée entreprise",
-            "date": "2022-03-29T20:28:45.744Z",
+            "date": "2022-02-24T20:28:45.744Z",
             "title": "Mega Event",
             "cover": "/images/chuttersnap-Q_KdjKxntH8-unsplash.png",
             "description": "Présentation des outils analytics aux professionnels du secteur ",
@@ -192,7 +192,7 @@
         {
             "id": 13,
             "type": "conférence",
-            "date": "2022-08-29T20:28:45.744Z",
+            "date": "2022-02-24T20:28:45.744Z",
             "title": "Conférence #productCON",
             "cover": "/images/headway-F2KRf_QfCqw-unsplash.png",
             "description": "Présentation des outils analytics aux professionnels du secteur ",
@@ -208,7 +208,7 @@
         {
             "id": 14,
             "type": "conférence",
-            "date": "2022-04-29T20:28:45.744Z",
+            "date": "2022-02-24T20:28:45.744Z",
             "title": "Conférence #productCON",
             "cover": "/images/pablo-heimplatz-ZODcBkEohk8-unsplash.png",
             "description": "Présentation des outils analytics aux professionnels du secteur ",
@@ -224,7 +224,7 @@
         {
             "id": 15,
             "type": "soirée entreprise",
-            "date": "2022-04-29T20:28:45.744Z",
+            "date": "2022-02-24T20:28:45.744Z",
             "title": "Conférence #productCON",
             "cover": "/images/priscilla-du-preez-Q7wGvnbuwj0-unsplash1.png",
             "description": "Présentation des outils analytics aux professionnels du secteur ",
@@ -237,10 +237,10 @@
                 "1 site web dédié"
             ]
         },
-        { 
+        {
             "id": 16,
             "type": "conférence",
-            "date": "2022-04-29T20:28:45.744Z",
+            "date": "2022-02-24T20:28:45.744Z",
             "title": "Conférence #productCON",
             "cover": "/images/product-school-dJICd7b_LlE-unsplash.png",
             "description": "Présentation des outils analytics aux professionnels du secteur ",
@@ -256,7 +256,7 @@
         {
             "id": 17,
             "type": "conférence",
-            "date": "2022-04-29T20:28:45.744Z",
+            "date": "2022-02-24T20:28:45.744Z",
             "title": "Conférence #productCON",
             "cover": "/images/product-school-nOvIa_x_tfo-unsplash.png",
             "description": "Présentation des outils analytics aux professionnels du secteur ",
@@ -272,7 +272,7 @@
         {
             "id": 18,
             "type": "soirée entreprise",
-            "date": "2022-04-29T20:28:45.744Z",
+            "date": "2022-02-24T20:28:45.744Z",
             "title": "Conférence #productCON",
             "cover": "/images/stem-list-EVgsAbL51Rk-unsplash.png",
             "description": "Présentation des outils analytics aux professionnels du secteur ",

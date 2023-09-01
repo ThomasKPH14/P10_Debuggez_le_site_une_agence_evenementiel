@@ -28,18 +28,20 @@ const EventCard = ({
     </div>
   );
 
-EventCard.propTypes = {
-  imageSrc: PropTypes.string.isRequired,
-  imageAlt: PropTypes.string,
-  date: PropTypes.instanceOf(Date).isRequired,
-  title: PropTypes.string.isRequired,
-  small: PropTypes.bool,
-  label: PropTypes.string.isRequired,
-};
+  EventCard.propTypes = {
+    imageSrc: PropTypes.string,  
+    imageAlt: PropTypes.string,
+    date: PropTypes.instanceOf(Date).isRequired,
+    title: PropTypes.string,
+    small: PropTypes.bool,
+    label: PropTypes.string.isRequired,
+  };
+  
 
-EventCard.defaultProps = {
-  imageAlt: "image",
-  small: false,
-}
-
+  EventCard.defaultProps = {
+    imageSrc: "", 
+    title: '',
+    imageAlt: "image",
+    small: false,
+  };
 export default EventCard;

@@ -13,34 +13,25 @@ const EventList = () => {
   const { data, error } = useData();
   const [type, setType] = useState(); // État pour le filtrage par type
   const [currentPage, setCurrentPage] = useState(1);
-  const filteredEvents = (
-    data?.events || [] // Utilisation de data?.events directement pour éviter la redondance
-  ).filter((event, index) =>
-    // Filtre les événements en fonction de la pagination et du type (si défini)
-    // Simplification : Utilisation directe du résultat de la condition pour éviter if/else
-    (!type || event.type === type) && // Applique le filtrage par type si type est défini
-    (currentPage - 1) * PER_PAGE <= index && PER_PAGE * currentPage > index
-    );
-  // Code de départ 
-  // const filteredEvents = (
-  //   (!type
-  //     ? data?.events
-  //     : data?.events) || []
-  // ).filter((event, index) => {
-  //   if (
-  //     (currentPage - 1) * PER_PAGE <= index &&
-  //     PER_PAGE * currentPage > index
-  //   ) {
-  //     return true;
-  //   }
-  //   return false;
-  // });
+
+  // Filtre les événements en fonction du type t
+  const allFilteredEvents = (
+    data?.events || [] 
+  ).filter((event) => (!type || event.type === type));
+
+  // la pagination 
+  const paginatedEvents = allFilteredEvents.slice((currentPage - 1) * PER_PAGE, currentPage * PER_PAGE);
+
   const changeType = (evtType) => {
     setCurrentPage(1);
     setType(evtType);
   };
-  const pageNumber = Math.floor((filteredEvents?.length || 0) / PER_PAGE) + 1;
+
+  // Calcul du nombre de pages
+  const pageNumber = Math.ceil(allFilteredEvents.length / PER_PAGE);
+
   const typeList = new Set(data?.events.map((event) => event.type));
+
   return (
     <>
       {error && <div>An error occured</div>}
@@ -54,7 +45,7 @@ const EventList = () => {
             onChange={(value) => (value ? changeType(value) : changeType(null))}
           />
           <div id="events" className="ListContainer">
-            {filteredEvents.map((event) => (
+            {paginatedEvents.map((event) => (
               <Modal key={event.id} Content={<ModalEvent event={event} />}>
                 {({ setIsOpened }) => (
                   <EventCard
@@ -81,4 +72,5 @@ const EventList = () => {
     </>
   );
 };
+
 export default EventList;
